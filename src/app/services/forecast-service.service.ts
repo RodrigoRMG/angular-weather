@@ -1,7 +1,7 @@
 import { Injectable, isDevMode } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Subject, Observable, pipe} from "rxjs";
-import {map} from 'rxjs/Operators'
+import {map} from 'rxjs/operators'
 import { environment } from '../../environments/environment';
 import { Coords } from '../../models/coords.model';
 import { Weather } from 'src/models/weather.model';
