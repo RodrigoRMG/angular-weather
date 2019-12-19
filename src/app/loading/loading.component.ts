@@ -12,7 +12,7 @@ export class LoadingComponent implements OnInit {
   _elements: string[] = ["#ffe5c","#ff80a0","#ff2e63","#800020", "#1a0006"];
   public elements: string[];
 
-  constructor(private currentWatherService:CurrentWeatherService) { }
+  constructor(public currentWatherService:CurrentWeatherService) { }
 
   ngOnInit() {
     this.set();

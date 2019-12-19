@@ -10,7 +10,7 @@ export class GeolocationButtonComponent implements OnInit {
 
   active: boolean = false
 
-  constructor(private geolocationService: GeolocationService) { }
+  constructor(public geolocationService: GeolocationService) { }
 
   ngOnInit() {
     this.geolocationService.permission$.then(status=>{
