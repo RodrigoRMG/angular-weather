@@ -1,0 +1,3 @@
+<div [@loading]="elements.length">
+    <div class="circle" *ngFor="let color of elements" [ngStyle]="{'background-color':color}"></div>
+</div>
